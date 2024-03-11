@@ -16,6 +16,8 @@ class BooksRepository {
                 val availableCopies = it.getInt("book_available_copies")
 
                 bookList.add(Book(bookId, bookTitle, bookAuthor, availableCopies))
+
+                println("Hola")
             }
         }
         return bookList
